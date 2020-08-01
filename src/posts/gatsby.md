@@ -5,6 +5,8 @@ date: "2020-07-31"
 
 My First Gatsby App!
 
+![gatsby](./gatsby.png)
+
 ## Topics
 
 1. Gatsby
