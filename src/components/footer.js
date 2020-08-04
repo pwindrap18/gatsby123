@@ -14,11 +14,13 @@ const Footer = () => {
       }
     }
   `)
+
+  const cricon = <FontAwesomeIcon icon={faCopyright} />
+
   return (
     <footer className={footerStyles.footer}>
       <p>
-        Created by {data.site.siteMetadata.author}{" "}
-        <FontAwesomeIcon icon={faCopyright} /> 2020
+        Created by {data.site.siteMetadata.author} {cricon} 2020
       </p>
     </footer>
   )
